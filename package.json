@@ -1,0 +1,32 @@
+{
+  "name": "apk-builder-engine",
+  "version": "1.0.0",
+  "description": "Build apk from git link using this easy deployable code block on server for privacy, security and fully anonymity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endlesscoders/apk-builder-engine.git"
+  },
+  "keywords": [
+    "apk",
+    "buildtool",
+    "builder"
+  ],
+  "author": "Rohit Sindher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/endlesscoders/apk-builder-engine/issues"
+  },
+  "homepage": "https://github.com/endlesscoders/apk-builder-engine#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "morgan": "^1.10.0",
+    "q": "^1.5.1",
+    "rotating-file-stream": "^2.1.3",
+    "winston": "^3.3.3"
+  }
+}
